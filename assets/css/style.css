@@ -295,7 +295,7 @@ header button{
     }
 }
 
-@media (max-width:1182px){
+@media (max-width:900px){
     .introduction .item2{
         padding-left: 15px;
         max-width: 100%;
@@ -312,7 +312,7 @@ header button{
 
 .frappucino .item1{  
     padding: 0 0 0 15px;
-    min-height: 800px;
+    height: 800px;
     display: flex;
     align-items: center;
     background-image: url(/assets/images/bg2.jpg);
@@ -335,4 +335,31 @@ header button{
     background-image: url(/assets/images/f5.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 900px){
+    .frappucino .itemContent {
+        padding-right: 15px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .frappucino{
+        grid-template-areas: 
+            "item1 item1"
+            "item2 item2";
+    }
+
+    .frappucino .item1{
+        height: 400px;
+    }
+
+    .frappucino h2{
+        margin-top: 0;
+    }
+
+    .frappucino .button{
+        margin-bottom: 0;
+    }
 }

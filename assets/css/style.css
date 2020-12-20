@@ -214,6 +214,13 @@ header button{
     margin-bottom: 30px;
 }
 
+@media (max-width:1036px){
+    .gaga{
+        grid-template-areas: 
+            "item1 item3"
+            "item2 item2";
+    }
+}
 @media (max-width:900px){
     .gaga .item1{
         padding-right: 15px;
@@ -265,4 +272,32 @@ header button{
     background-image: url(/assets/images/f4.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 1075px){
+    .introduction{
+        grid-template-areas: 
+            "item1 item2"
+            "item3 item3";
+    }
+
+    .introduction .item3{
+        background-size: cover;
+    }
+}
+
+@media (max-width: 650px){
+    .introduction{
+        grid-template-areas: 
+            "item2 item2"
+            "item1 item1"
+            "item3 item3";
+    }
+}
+
+@media (max-width:1182px){
+    .introduction .item2{
+        padding-left: 15px;
+        max-width: 100%;
+    }
 }

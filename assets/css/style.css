@@ -301,3 +301,38 @@ header button{
         max-width: 100%;
     }
 }
+
+/*FRAPPUCINO AREA */
+
+.frappucino{
+    grid-template-areas: 
+        "item1 item2"
+}
+
+
+.frappucino .item1{  
+    padding: 0 0 0 15px;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/bg2.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+.frappucino .itemContent{
+    max-width: 570px;
+    margin-left: auto;
+    padding-right: 100px;
+    min-height: 0;
+}
+
+.frappucino h2:before{
+    display: none;
+}
+
+.frappucino .item2{
+    background-image: url(/assets/images/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}

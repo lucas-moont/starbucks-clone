@@ -471,3 +471,7 @@ footer p:last-child{
 footer a{
     color: #9decac;
 }
+
+footer span{
+    color: #F00;
+}

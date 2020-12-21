@@ -196,12 +196,20 @@ header button{
 }
 
 @media (max-width: 540px){
+    .banner{
+        padding: 50px 15px;
+    }
     .banner h1{
         font-size: 55px;
         line-height: 55px;
     }
     .bannerImages{
         flex-direction: column;
+    }
+
+    .banner img{
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -431,22 +439,16 @@ header button{
 /*section bg*/
 
 .bg{
-    height: 700px;
+    height: 500px;
     background-image: url(/assets/images/bg4.jpg);
     background-size: cover;
     background-position: center;
 }
 
-@media (max-width: 1016px){
-    .bg{
-        background-position-x: -300px;
-        background-repeat: no-repeat;
-    }
-}
-
 @media (max-width: 691px){
     .bg{
-        background-position-x: -500px;
+        background-position-x: center;
+        height: 200px;
     }
 }
 

@@ -139,6 +139,18 @@ header input::placeholder{
     width: 30px;
 }
 
+@media (max-width: 550px){
+    header input{
+        width: 100px;
+    }
+}
+
+@media (max-width: 368px){
+    .search{
+        display: none;
+    }
+}
+
 header button{
     cursor: pointer;
 }
@@ -184,6 +196,10 @@ header button{
 }
 
 @media (max-width: 540px){
+    .banner h1{
+        font-size: 55px;
+        line-height: 55px;
+    }
     .bannerImages{
         flex-direction: column;
     }
@@ -371,7 +387,7 @@ header button{
     background-color: #e8e9ee;
     background-image: url(/assets/images/bg3.jpg);
     background-size: cover;
-    background-position-y: center;
+    background-position-y: -140px;
     background-position-x: 320px;
     background-repeat: no-repeat;
 }
@@ -402,8 +418,34 @@ header button{
         grid-template-areas: 
             "item1 item1";
         background-position-x: -100px;
-        background-position-y: 130px;
+        background-position-y: 50px;
         align-items: flex-start;
         padding-top: 50px;
+    }
+
+    .kindness h2{
+        margin-top: 20px;
+    }
+}
+
+/*section bg*/
+
+.bg{
+    height: 700px;
+    background-image: url(/assets/images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1016px){
+    .bg{
+        background-position-x: -300px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 691px){
+    .bg{
+        background-position-x: -500px;
     }
 }

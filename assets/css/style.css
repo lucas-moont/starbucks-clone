@@ -363,3 +363,32 @@ header button{
         margin-bottom: 0;
     }
 }
+
+/*KINDNESS SECTION*/
+
+.kindness{
+    grid-template-areas: 
+        "item1 .";
+    height: 800px;
+    align-items: center;
+    background-color: #e8e9ee;
+    background-image: url(/assets/images/bg3.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: 320px;
+    background-repeat: no-repeat;
+}
+
+.kindness .item1{
+    max-width: 570px;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 250px;
+    min-height: 0;
+}
+
+@media (max-width: 1014px){
+    .kindness .item1{
+        padding-right: 100px;       
+    }
+}

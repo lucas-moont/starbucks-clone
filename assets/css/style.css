@@ -32,7 +32,7 @@ h2::before{
     display: inline-block;
     text-decoration: none;
     color: #838788;
-    margin: 30px 0;
+    margin: 30px 0 0;
     padding: 10px 25px;
     border: 2px solid #6b7072;
     border-radius: 3px;
@@ -266,6 +266,7 @@ header button{
     width: 100%;
     padding: 15px;
     padding-left: 100px;
+    padding-bottom: 60px;
 }
 
 .introduction .item3{
@@ -357,10 +358,6 @@ header button{
 
     .frappucino h2{
         margin-top: 0;
-    }
-
-    .frappucino .button{
-        margin-bottom: 0;
     }
 }
 

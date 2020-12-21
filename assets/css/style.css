@@ -260,6 +260,10 @@ header button{
     .gaga{
         display: block;
     }
+
+    .gaga .item2{
+        min-height: 200px;
+    }
 }
 
 .gaga .item2{

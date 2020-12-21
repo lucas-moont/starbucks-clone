@@ -392,3 +392,21 @@ header button{
         padding-right: 100px;       
     }
 }
+
+@media (max-width: 900px){
+    .kindness .item1 {
+        padding-right: 15px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 860px){
+    .kindness{
+        grid-template-areas: 
+            "item1 item1";
+        background-position-x: -100px;
+        background-position-y: 130px;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+}
